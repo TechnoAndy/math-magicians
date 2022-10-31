@@ -7,7 +7,7 @@
 - In this project I set up the environment and tools needed to develop a React application.
 
 ## Built With
-
+- create-react-app
 - Linters
 - github folder with linters.yml files
 - babelrc
