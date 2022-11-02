@@ -17,9 +17,9 @@
 - package-lock.json
 - package.json
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Andrea Diegaardt**
 
 -GitHub: @TechnoAndy
 
