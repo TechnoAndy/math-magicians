@@ -53,3 +53,13 @@ body {
 .amber {
   background-color: orange;
 }
+
+.press-btn.amber:hover {
+  background-color: peachpuff;
+}
+
+.press-btn:hover,
+.press-btn-1:hover,
+.press-btn-2:hover {
+  background-color: #d2d2d2;
+}
