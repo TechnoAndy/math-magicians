@@ -18,9 +18,7 @@ body {
 
 .calc-container {
   display: grid;
-  width: 100%;
   background-color: grey;
-  width: fit-content;
 }
 
 .display {
