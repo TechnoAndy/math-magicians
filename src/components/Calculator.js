@@ -2,6 +2,8 @@
 /* eslint-disable react/self-closing-comp */
 
 import React from 'react';
+import calculate from '../logic/calculate';
+import operate from '../logic/operate';
 
 class App extends React.Component {
   constructor(props) {
