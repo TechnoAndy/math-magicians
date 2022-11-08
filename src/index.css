@@ -6,14 +6,17 @@
 
 body {
   height: 100vh;
-  background-color: #efefef;
+  background-color: peachpuff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .App {
   display: flex;
-  min-height: 100vh;
+  min-height: 50vh;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
+  padding-right: 100px;
+  padding-bottom: 200px;
 }
 
 .c-container {
@@ -62,4 +65,51 @@ body {
 .press-btn-1:hover,
 .press-btn-2:hover {
   background-color: #d2d2d2;
+}
+
+.Heading {
+  padding: 20px 20px;
+}
+
+.Heading-1 {
+  padding: 70px;
+}
+
+/* .Heading-2 {
+ padding-right: 100px;
+} */
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  padding-right: 50px;
+  margin-top: -50px;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.Description {
+  width: 100%;
+  padding: 100px;
+  font-size: 1.2rem;
+}
+
+.Description-q {
+  text-align: center;
+  padding: 250px;
+  width: 100%;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
