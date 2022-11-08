@@ -12,9 +12,10 @@ body {
 
 .App {
   display: flex;
-  min-height: 100vh;
+  min-height: 50vh;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
+  padding-right: 100px;
   padding-bottom: 200px;
 }
 
@@ -66,14 +67,17 @@ body {
   background-color: #d2d2d2;
 }
 
-.Heading,
-.Heading-1 {
+.Heading {
   padding: 20px 20px;
 }
 
-.Heading-2 {
- padding-right: 100px;
+.Heading-1 {
+  padding: 70px;
 }
+
+/* .Heading-2 {
+ padding-right: 100px;
+} */
 
 .nav-links {
   display: flex;
