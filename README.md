@@ -4,10 +4,10 @@
 
 # Math-magicians
 
-- In this project I set up the environment and tools needed to develop a React application.
+- In this project I created a full website for the Math magicians app, consisting of 3 pages.
 
 ## Built With
-- create-react-app
+- Create-react-app
 - Linters
 - github folder with linters.yml files
 - babelrc
