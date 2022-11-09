@@ -12,4 +12,5 @@ it('Nav renders as expected', () => {
     </Router>,
   );
   expect(Task).toMatchSnapshot();
+  
 });
