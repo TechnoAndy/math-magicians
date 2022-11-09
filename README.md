@@ -17,6 +17,10 @@
 - package-lock.json
 - package.json
 
+## Live Demo
+
+Check [the live version](https://math-magicians-153.netlify.app/) of this project.
+
 ## Author
 
 👤 **Andrea Diegaardt**
