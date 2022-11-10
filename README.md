@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-Check [the live version](https://math-magicians-153.netlify.app/) of this project.
+Check [the live version](https://math-magicians-648245.netlify.app/) of this project.
 
 ## Author
 
