@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 function Calc() {
   const [position, setposition] = useState({ total: 0 });
   function clkBtn(e) {
-    setposition((state) => calculate(state, e.target.innerText));
+    setposition((state) => calculate(state, e.target.innerHTML));
   }
 
   const { total, next, operation } = position;
@@ -13,7 +13,7 @@ function Calc() {
       <h2 className="Heading-1"> Let&#39;s do some math! </h2>
       <div className="App">
         <div className="c-container">
-          <div className="display">
+          <div className="display" data-testid="displayPreview">
             <span />
             {total}
             {operation}
